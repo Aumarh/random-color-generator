@@ -16,7 +16,7 @@ const hashBlock = `##############################
 
 if (process.argv.length < 3) {
   console.log(chalk.hex(color)(hashBlock));
-} else if (process.argv[2] == 'ask') {
+} else if (process.argv[2] === 'ask') {
   console.log('Specify color');
 } else {
   console.log(
